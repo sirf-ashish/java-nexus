@@ -29,12 +29,12 @@
 
 <distributionManagement>
     <snapshotRepository>
-       <id>nexus-snapshot</id>
-       <url>http://192.168.1.6:8081/repository/sita-snapshot/</url>
+       <id>nexus</id>
+       <url>http://192.168.1.6:8081/repository/jenkin-snapshots/</url>
     </snapshotRepository>
     <repository>
-       <id>nexus-releases</id>
-       <url>http://192.168.1.6:8081/repository/sita-releases/</url>
+       <id>nexus</id>
+       <url>http://192.168.1.6:8081/repository/jenkin-release/</url>
     </repository>
 </distributionManagement>
 

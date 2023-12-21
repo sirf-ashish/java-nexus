@@ -112,13 +112,13 @@ under the License.
   <servers>
 
     <server>
-      <id>nexus-snapshot</id>
+      <id>nexus</id>
       <username>admin</username>
       <password>admin</password>
     </server>
 
     <server>
-      <id>nexus-releases</id>
+      <id>nexus</id>
       <username>admin</username>
       <password>admin</password>
     </server>
@@ -190,7 +190,7 @@ under the License.
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://192.168.1.6:8081/repository/sita-group/</url>
+      <url>http://192.168.1.6:8081/repository/jenkin-group/</url>
     </mirror>
 
   </mirrors> 
@@ -292,7 +292,7 @@ under the License.
        <repository>
          <id>central</id>
          <name>Central Repository</name>
-         <url>http://192.168.1.6:8081/repository/sita-group/</url>
+         <url>http://192.168.1.6:8081/repository/jenkin-group/</url>
          <snapshots><enabled>true</enabled></snapshots>
          <releases><enabled>true</enabled></releases>
        </repository>
@@ -301,7 +301,7 @@ under the License.
        <pluginRepository>
          <id>central</id>
          <name>Central Repository</name>
-         <url>http://192.168.1.6:8081/repository/sita-group/</url>
+         <url>http://192.168.1.6:8081/repository/jenkin-group/</url>
          <snapshots><enabled>true</enabled></snapshots>
          <releases><enabled>true</enabled></releases>
        </pluginRepository>
