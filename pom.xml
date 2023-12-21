@@ -32,14 +32,14 @@
        <id>nexus</id>
        <url>http://192.168.1.6:8081/repository/jenkin-snapshots/</url>
     </snapshotRepository>
-    <releaserepository>
+    <releaseRepository>
        <id>nexus</id>
        <url>http://192.168.1.6:8081/repository/jenkin-release/</url>
-    </releaserepository>
-   <grouprepository>
+    </releaseRepository>
+   <groupRepository>
        <id>nexus</id>
        <url>http://192.168.1.6:8081/repository/jenkin-group/</url>
-    </grouprepository>
+    </groupRepository>
 </distributionManagement>
 
 
