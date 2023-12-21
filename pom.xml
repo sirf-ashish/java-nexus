@@ -27,7 +27,7 @@
     </dependency>
   </dependencies>
 
-<distributionManagement>
+
     <repositories>
       <repository>
        <id>nexus</id>
@@ -42,7 +42,7 @@
        <url>http://192.168.1.6:8081/repository/jenkin-group/</url>
       </repository>
     </repositories>
-</distributionManagement>
+
 
 
   <build>
