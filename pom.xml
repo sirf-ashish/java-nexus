@@ -6,7 +6,7 @@
 
   <groupId>aero.sita</groupId>
   <artifactId>liferay-release</artifactId>
-  <version>2.2</version>
+  <version>3.0</version>
 
   <name>liferay-release</name>
   <!-- FIXME change it to the project's website -->
@@ -31,11 +31,11 @@
   <distributionManagement>
     <snapshotRepository>
        <id>nexus</id>
-       <url>http://192.168.1.6:8081/repository/jenkin-snapshots/</url>
+       <url>http://192.168.1.6:8081/repository/jen-snapshots/</url>
     </snapshotRepository>
     <repository>
        <id>nexus</id>
-       <url>http://192.168.1.6:8081/repository/jenkin-release/</url>
+       <url>http://192.168.1.6:8081/repository/jen-release/</url>
     </repository>
 </distributionManagement>
 
