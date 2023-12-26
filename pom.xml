@@ -6,7 +6,7 @@
 
   <groupId>aero.sita</groupId>
   <artifactId>liferay-release</artifactId>
-  <version>3.0</version>
+  <version>10.0</version>
 
   <name>liferay-release</name>
   <!-- FIXME change it to the project's website -->
