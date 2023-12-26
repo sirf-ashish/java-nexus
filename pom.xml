@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>aero.sita</groupId>
   <artifactId>liferay-release</artifactId>
-  <version>10.0-SNAPSHOT</version>
+  <version>20.0-SNAPSHOT</version>
 
   <name>liferay-release</name>
   <!-- FIXME change it to the project's website -->
@@ -27,18 +26,16 @@
     </dependency>
   </dependencies>
 
-
   <distributionManagement>
     <snapshotRepository>
-       <id>nexus</id>
-       <url>http://192.168.1.6:8081/repository/jen-snapshots/</url>
+      <id>nexus</id>
+      <url>http://192.168.1.6:8081/repository/jen-snapshots/</url>
     </snapshotRepository>
     <repository>
-       <id>nexus</id>
-       <url>http://192.168.1.6:8081/repository/jen-release/</url>
+      <id>nexus</id>
+      <url>http://192.168.1.6:8081/repository/jen-release/</url>
     </repository>
-</distributionManagement>
-
+  </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
